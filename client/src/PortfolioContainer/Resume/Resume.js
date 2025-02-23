@@ -66,43 +66,43 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
+      title: "KoverUI-Insurance Technology Platform",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "Developed a comprehensive insurance platform supporting policy management, claims processing, underwriting, and customer interactions, enhancing automation and efficiency for insurers.",
+      subHeading: "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootsrap",
     },
     {
-      title: "Mobile E-shop ",
+      title: "Bao Viet Travel Mobile App ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
+        "Developed a hybrid mobile app for travel and personal accident insurance with policy management, claims, inquiries, multilingual support, currency conversion, online payments, and automated policy emails.",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+        "Technologies Used:  Angular, Ionic, TypeScript",
     },
     {
-      title: "Ecommerce Website ",
+      title: "ERGO Accident Protect",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Developed a safety-focused insurance app from scratch, providing Single, Family, and Multiple Individual coverage with seamless transactions and document management., both Paypal and Stripe",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootsrap",
     },
     {
-      title: "Ecommerce Website ",
+      title: "ERGO Broker Portal ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Developed a comprehensive insurance broker application for issuing quotations, policies, cover notes, and renewal notices, with support for inquiries, policy management, and document generation., both Paypal and Stripe",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootsrap",
     },
     {
-      title: "Ecommerce Website ",
+      title: "ERGO Motor -Private Car ",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
+        "Built a general insurance platform from scratch for purchasing motor insurance for private and corporate vehicles, featuring payment gateway integration and document downloads., both Paypal and Stripe",
       subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootstrap.",
     },
   ];
 
@@ -136,31 +136,119 @@ const Resume = (props) => {
       <div className="experience-container">
    
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
-          subHeading={"FULL STACK DEVELOPER INTERN"}
-          fromDate={"2021"}
+          heading={"Dataintics"}
+          subHeading={"SENIOR FRONREND DEVELOPER"}
+          fromDate={"2024"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+          Project: KoverUI-Insurance Technology Platform
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            - Develop Angular frontend for KoverUI, enabling swift configuration and distribution of insurance products.
+          </span>
+          <br/>
+          <span className="resume-description-text">
+            - Designed reusable UI components for underwriting, policy management, and claims, while writing clean, maintainable code following best practices.
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
+            - Integrate KoverUIwith third-party systems and internal APIs for seamless data exchange..{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
+            - Enable users to customize insurance products without coding, including broker portals and mobile apps.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Ensure responsive, mobile-first design for consistent user experience across devices.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Integrate dynamic reporting features to provide actionable insights into insurance data.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Optimize frontend performance, reducing load times and improving user experience.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Collaborate with backend engineers to ensure smooth integration of frontend and business logic.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Work with UX/UI designers to create an intuitive interface for complex insurance processes.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Contribute to Agile sprints, delivering key features and enhancements.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Implement security best practices, ensuring secure handling of sensitive insurance data.
+          </span>
+          <br />
+          <br />
+        </div>
+        <ResumeHeading
+          heading={"Kerk Solution"}
+          subHeading={"SOTWARE ENGINEER"}
+          fromDate={"2019"}
+          toDate={"2024"}
+        />
+         <div className="experience-description">
+          <span className="resume-description-text">
+          April 2019 –September 2024<br/>
+          Projects: ERGO Insurance Platform, PHA Health Insurance Platform, BaovietTravel Mobile App
+          </span>
+        </div>
+
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Developed and maintained web applications from scratch using HTML5, CSS3, JavaScript, and Angular, ensuring responsive design for multiple &nbsp;&nbsp;&nbsp;&nbsp;devices.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Upgraded projects to the latest Angular versions, optimizing performance and ensuring compatibility with modern web standards.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Collaborated with UI/UX designers and back-end developers to turn wireframes and designs into functional web apps.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Applied responsive design with frameworks like Bootstrap, enhancing accessibility and usability.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Actively contributed to agile development processes, including sprint planning, stand-ups, and retrospectives.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Debugged and troubleshot frontend issues, resolving technical challenges quickly to minimize downtime.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Integrated REST APIs for data population and submission, ensuring seamless backend connectivity.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Optimized code and streamlined processes for improved performance, scalability, and reduced maintenance costs.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Conducted testing to identify defects early and ensure high-quality deliverables.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Managed Dev, UAT, and Production releases, ensuring smooth deployments and minimal disruption.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Mentored junior developers and facilitated knowledge-sharing sessions to support team growth.
           </span>
           <br />
         </div>
@@ -168,7 +256,7 @@ const Resume = (props) => {
     </div>,
 
     /* PROGRAMMING SKILLS */
-    <> 
+    <div className="mt"> 
     <h1>PROGRAMMING SKILLS</h1>
     <div
       className="resume-screen-container programming-skills-container mb-5"
@@ -188,11 +276,11 @@ const Resume = (props) => {
         </div>
       ))}
     </div>
-    </>,
+    </div>,
     
 
     /* PROJECTS */
-    <><h1 className="mb-4">PROJECTS</h1>
+    <><h1 className="mb-4">PROJECT WORK</h1>
     <div className="resume-screen-container" key="projects">
       
       {projectsDetails.map((projectsDetails, index) => (
@@ -208,6 +296,8 @@ const Resume = (props) => {
     </div></>,
 
     /* Interests */
+    <div className="mt">
+    <h1 className="mb-4">INTERESTS</h1>
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Teaching"
@@ -221,7 +311,7 @@ const Resume = (props) => {
         heading="Competitive Gaming"
         description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
       />
-    </div>,
+    </div></div>,
   ];
 
   const handleCarousal = (index) => {
