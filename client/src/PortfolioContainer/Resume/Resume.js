@@ -97,12 +97,60 @@ const Resume = (props) => {
         "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootsrap",
     },
     {
-      title: "ERGO Motor -Private Car ",
+      title: "ERGO Motor -Private Car",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
         "Built a general insurance platform from scratch for purchasing motor insurance for private and corporate vehicles, featuring payment gateway integration and document downloads., both Paypal and Stripe",
       subHeading:
         "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootstrap.",
+    },
+    {
+      title: "ERGO SME Biz Protect",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Built a general insurance solution for small and medium businesses with multi-location coverage, payment gateway integration, and document management.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootstrap.",
+    },
+    {
+      title: "ERGO Travel Protect",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Built a travel insurance platform from scratch, offering Single Trip and Annual Multi-Trip coverage with payment processing, document downloads, and email forwarding.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootstrap.",
+    },
+    {
+      title: "ERGO Travel Protect -Corporate",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Built a corporate travel insurance solution from scratch, tailored for employee coverage with payment gateway integration and document management.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, Angular, Bootstrap.",
+    },
+    {
+      title: "PHA Health Online",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Developed a health insurance platform offering Individual, Family, and Multiple Individuals coverage with payment processing, document downloads, and email forwarding.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, AngularJS, jQuery, Bootstrap.",
+    },
+    {
+      title: "PHA Motor Vehicle",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Developed a motor vehicle insurance platform for private and corporate vehicles with payment processing, document downloads, and email forwarding.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, AngularJS, jQuery, Bootstrap.",
+    },
+    {
+      title: "Underwriter Portal",
+      duration: { fromDate: "2020", toDate: "2021" },
+      description:
+        "Collaborated on developing an internal back-office application for underwriters, facilitating transaction management, claims processing, policy handling, underwriting approvals, and user management.",
+      subHeading:
+        "Technologies Used: HTML5, CSS3, JavaScript, AngularJS, jQuery, Bootstrap.",
     },
   ];
 
@@ -289,18 +337,16 @@ const Resume = (props) => {
           heading={projectsDetails.title}
           subHeading={projectsDetails.subHeading}
           description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
         />
       ))}
     </div></>,
 
     /* Interests */
-    <div className="mt">
-    <h1 className="mb-4">INTERESTS</h1>
+    <div className="mt-project-work">
+    <h1>INTERESTS</h1>
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
+        heading="Learn New Technologies"
         description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
       />
       <ResumeHeading
@@ -308,7 +354,7 @@ const Resume = (props) => {
         description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
+        heading="Traverling"
         description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
       />
     </div></div>,
