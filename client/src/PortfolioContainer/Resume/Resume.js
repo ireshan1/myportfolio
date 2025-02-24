@@ -53,13 +53,12 @@ const Resume = (props) => {
 
   //here we have
   const programmingSkillsDetails = [
+    { skill: "Angular", ratingPercentage: 85 },
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
+    { skill: "Tailwind CSS", ratingPercentage: 85 },
+    { skill: "Material UI", ratingPercentage: 89 },
+    { skill: "Redux", ratingPercentage: 89 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -179,8 +178,11 @@ const Resume = (props) => {
     </div>,
 
     /* WORK EXPERIENCE */
+     <div>
+       <h1 className='headingMTop'> WORK EXPERIENCE</h1>
+     </div>,
     <div className="resume-screen-container" key="work-experience">
-         <h1> WORK EXPERIENCE</h1>
+        
       <div className="experience-container">
    
         <ResumeHeading
@@ -301,11 +303,11 @@ const Resume = (props) => {
           <br />
         </div>
       </div>
-    </div>,
+    </div>  ,
 
     /* PROGRAMMING SKILLS */
     <div className="mt"> 
-    <h1>PROGRAMMING SKILLS</h1>
+    <h1 className="mtop">PROGRAMMING SKILLS</h1>
     <div
       className="resume-screen-container programming-skills-container mb-5"
       key="programming-skills"
@@ -315,12 +317,12 @@ const Resume = (props) => {
           
           <div className="heading-bullet"></div>
           <span>{skill.skill}</span>
-          <div className="skill-percentage">
+          {/* <div className="skill-percentage">
             <div
               style={{ width: skill.ratingPercentage + "%" }}
               className="active-percentage-bar"
             ></div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

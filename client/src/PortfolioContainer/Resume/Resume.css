@@ -95,8 +95,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 360px;
+  height: 180px;
   width: 100%;
+  /* padding: 17px 0px 0px; */
 }
 
 .resume-heading {
@@ -163,6 +164,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap:10px 0
 }
 
 .skill-percentage {
@@ -185,11 +187,23 @@
   color: #ff5823;
 }
 .mt {
-  margin-top: 35rem;
+  margin-top: 43rem;
 }
 
 .mt-project-work {
-  margin-top: 45rem;
+  margin-top: 55rem;
+}
+
+.headingMTop{
+  margin-top: 5rem;
+}
+
+.mtop{
+  margin-top: 0;
+}
+.resume-card h1{
+  color: #333652;
+  font-weight: bold;
 }
 
 /* IPAD PRO RESPONSIVENESS */
@@ -201,6 +215,19 @@
   .resume-bullet-details {
     padding: 0 0 0 70px;
   }
+
+  
+  .headingMTop{
+    margin-top: 7rem;
+  }
+
+  .mt{
+    margin-top: 83rem;
+  }
+
+  .mt-project-work {
+    margin-top: 89rem;
+   }
 }
 
 /* IPAD RESPONSIVENESS */
@@ -238,4 +265,16 @@
   .selected-bullet {
     width: 100%;
   }
+
+  .headingMTop{
+    margin-top: 7rem;
+  }
+
+  .mt{
+    margin-top: 83rem;
+  }
+
+  .mt-project-work {
+    margin-top: 89rem;
+   }
 }
