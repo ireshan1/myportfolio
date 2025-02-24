@@ -155,7 +155,7 @@ const Resume = (props) => {
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
-      <h1>EDUCATION</h1>
+      <h2>EDUCATION</h2>
       <ResumeHeading
         heading={"University of Plymouth(United Kingdom)"}
         subHeading={"BSC.(HONS) OF SOFTWARE ENGINEERING"}
@@ -179,7 +179,7 @@ const Resume = (props) => {
 
     /* WORK EXPERI  ENCE */
      <div>
-       <h1 className='headingMTop'> WORK EXPERIENCE</h1>
+       <h2 className='headingMTop'> WORK EXPERIENCE</h2>
      </div>,
     <div className="resume-screen-container" key="work-experience">
         
@@ -307,7 +307,7 @@ const Resume = (props) => {
 
     /* PROGRAMMING SKILLS */
     <div className="mt"> 
-    <h1 className="mtop">PROGRAMMING SKILLS</h1>
+    <h2 className="mtop">PROGRAMMING SKILLS</h2>
     <div
       className="resume-screen-container programming-skills-container mb-5"
       key="programming-skills"
@@ -330,7 +330,7 @@ const Resume = (props) => {
     
 
     /* PROJECTS */
-    <><h1 className="mb-4">PROJECT WORK</h1>
+    <><h2 className="mb-4">PROJECT WORK</h2>
     <div className="resume-screen-container" key="projects">
       
       {projectsDetails.map((projectsDetails, index) => (
@@ -345,7 +345,7 @@ const Resume = (props) => {
 
     /* Interests */
     <div className="mt-project-work">
-    <h1>INTERESTS</h1>
+    <h2>INTERESTS</h2>
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Learn New Technologies"

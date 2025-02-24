@@ -75,3 +75,20 @@
     gap: 13px;
     padding: 30px;
 }
+
+
+
+
+@media only screen and (max-width: 1023px) {
+.cart-container {
+    flex-direction: column;
+    padding: 58px;
+}
+}
+
+@media only screen and (max-width: 1110px) {
+    .cart-container {
+        flex-direction: column;
+        padding: 58px;
+    } 
+}

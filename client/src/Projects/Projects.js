@@ -1,15 +1,17 @@
 import "./Project.css";
-import project from "../img/Project/forest.jpg";
 import ergompc from "../img/Project/ERGO-MPC1.png";
 import ergofmw from "../img/Project/ERGO-FMW.png";
 import ergosme from "../img/Project/ERGO-SME.png";
 import ergopa from "../img/Project/ERGO-PA.png";
+import baoviet from "../img/Project/Baoviet.png";
+import delivery from "../img/Project/Dilivery App.png";
+import touratech from "../img/Project/Touratech.png";
 import ScreenHeading from "../utilities/ScreenHeading/ScreenHeading";
 
 export default function Project() {
   return (
     <>
-      <ScreenHeading title={"Project"} subHeading={"My formal Bio Details"} />
+      <ScreenHeading title={"Project"} subHeading={"My Projects"} />
         <div className="cart-container">
           <div className="card">
             <img className="card-img" style={{objectPosition: 'center' }} src={ergofmw} alt="card" />
@@ -28,7 +30,7 @@ export default function Project() {
           </div>
 
           <div className="card">
-            <img className="card-img"  src={ergompc} alt="card" />
+            <img className="card-img" style={{objectPosition: 'left' }}  src={ergompc} alt="card" />
             <div className="card-body">
               <h1 className="card-title">ERGO MPC</h1>
               <p className="card-sub-title">Motor Protect Corporation</p>
@@ -56,7 +58,7 @@ export default function Project() {
           </div>
 
           <div className="card">
-            <img className="card-img" src={ergopa} alt="card" />
+            <img className="card-img" style={{objectPosition: 'left' }} src={ergopa} alt="card" />
             <div className="card-body">
               <h1 className="card-title">ERGO-PA</h1>
               <p className="card-sub-title">My another project</p>
@@ -73,10 +75,40 @@ export default function Project() {
 
       <div className="cart-container">
         <div className="card">
-          <img className="card-img" src={project} alt="card" />
+          <img className="card-img" src={baoviet} alt="card" />
           <div className="card-body">
-            <h1 className="card-title">udeeka</h1>
-            <p className="card-sub-title">My another project</p>
+            <h1 className="card-title">Baoviet</h1>
+            <p className="card-sub-title">Baoviet Travel</p>
+            <p className="card-info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+
+            {/* <button className='card-btn'>Click here</button> */}
+            <button className="btn highlighted-btn">Click here</button>
+          </div>
+        </div>
+
+        <div className="card">
+          <img className="card-img" src={delivery} alt="card" />
+          <div className="card-body">
+            <h1 className="card-title">Delivery App</h1>
+            <p className="card-sub-title">Baoviet Travel</p>
+            <p className="card-info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+
+            {/* <button className='card-btn'>Click here</button> */}
+            <button className="btn highlighted-btn">Click here</button>
+          </div>
+        </div>
+
+        <div className="card">
+          <img className="card-img" src={touratech} alt="card" />
+          <div className="card-body">
+            <h1 className="card-title">Touratech</h1>
+            <p className="card-sub-title">Touratech app for bike service center in Dubai</p>
             <p className="card-info">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
