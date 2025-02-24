@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useRef } from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -21,6 +21,17 @@ export default function Testimonial(props) {
   // const fadeInSubscription =
   //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
+
+  // Create a ref to hold the instance of the carousel
+  const owlCarouselRef = useRef();
+
+  // Function to stop the carousel when hovering the button
+  const handleMouseEnter = () => {
+    if (owlCarouselRef.current) {
+      owlCarouselRef.current.stop(); // This stops the carousel
+    }
+  };
+
   const options = {
     loop: true,
     margin: 0,
@@ -28,8 +39,8 @@ export default function Testimonial(props) {
     animateIn: "bounceInRight",
     animateOut: "bounceOutRight",
     dots: true,
-    autoplay: false,
-    smartSpeed: 3000,
+    autoplay: true,
+    smartSpeed: 4000,
     responsive: {
       0: {
         items: 1,
@@ -41,6 +52,7 @@ export default function Testimonial(props) {
         items: 3,
       },
     },
+    
   };
 
   return (
@@ -53,12 +65,14 @@ export default function Testimonial(props) {
         <div className="container">
           <div className="row">
             <OwlCarousel
+              ref={owlCarouselRef}
               className="owl-carousel"
               id="testimonial-carousel"
               {...options}
+              
             >
               <div className="col-lg-12">
-                <div className="testi-item">
+                <div className="testi-item"  onMouseEnter={handleMouseEnter}>
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />

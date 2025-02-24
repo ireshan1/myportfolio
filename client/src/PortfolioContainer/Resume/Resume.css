@@ -297,4 +297,20 @@
   .mt-project-work {
     margin-top: 89rem;
    }
+
+   .resume-card{
+    ::-webkit-scrollbar {
+      width: 12px;  /* Width of the vertical scrollbar */
+      height: 12px; /* Height of the horizontal scrollbar */
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(49, 49, 49, 0.5); /* Color of the thumb (the part you drag) */
+      border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background-color: #ff5823;  /* Color of the track (background of the scrollbar) */
+    }
+  }
 }

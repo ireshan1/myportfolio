@@ -177,7 +177,7 @@ const Resume = (props) => {
       />
     </div>,
 
-    /* WORK EXPERIENCE */
+    /* WORK EXPERI  ENCE */
      <div>
        <h1 className='headingMTop'> WORK EXPERIENCE</h1>
      </div>,
