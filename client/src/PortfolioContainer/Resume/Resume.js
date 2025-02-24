@@ -370,7 +370,7 @@ const Resume = (props) => {
     setCarousalOffsetStyle(newCarousalOffset);
     setSelectedBulletIndex(index);
   };
-
+// eslint-disable-next-line
   const getBullets = () => {
     return resumeBullets.map((bullet, index) => (
       <div
@@ -395,6 +395,7 @@ const Resume = (props) => {
       <div
         style={carousalOffsetStyle.style}
         className="resume-details-carousal"
+        key='id'
       >
         {resumeDetails.map((ResumeDetail) => ResumeDetail)}
       </div>
