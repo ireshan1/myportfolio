@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run  server\" \"npm run client\"",
-    "build:ui": "rm -rf dist && cd ../client && npm run build",
+    "build:ui": "rm -rf dist && cd client && npm run build",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   }
   },
